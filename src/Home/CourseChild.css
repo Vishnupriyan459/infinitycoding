@@ -1,0 +1,12 @@
+.scroll-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.course-panel {
+  flex: 0 0 auto;
+  width: 100%; /* Adjust this width based on your layout needs */
+}

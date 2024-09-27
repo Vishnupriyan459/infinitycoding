@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'sans-serif','Telegraf'; */
+    font-family: 'Telegraf';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: 'Telegraf';
+  src: url('../public/telgraf/PPTelegraf-Regular.otf') format('truetype');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* @font-face {
+  font-family: 'MyCustomFont';
+  
+} */
+ 

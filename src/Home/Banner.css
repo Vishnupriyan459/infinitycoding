@@ -1,0 +1,30 @@
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-content {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: scrollLeft 30s linear infinite;
+}
+
+.banner-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  opacity: 0.5; /* Slightly more transparent */
+}
+
+@keyframes scrollLeft {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-50%); /* Adjust to allow for smooth looping */
+  }
+}
